@@ -14,7 +14,7 @@ public class DateServelt extends HttpServlet {
 		pw.println("<h1>Date and Time is::"+new Date()+"<h1>");
 		pw.println("<br><a href='index.html'>home</a>");
 		pw.close();
-		System.out.println("hello");
+		
 	}
 	protected void doPost(HttpServletRequest req,HttpServletResponse res)throws ServletException,IOException{
 		doGet(req,res);
